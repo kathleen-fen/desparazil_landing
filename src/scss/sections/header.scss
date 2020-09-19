@@ -1,0 +1,84 @@
+.header {
+    position: relative;
+    height: 1606px;
+    &__subtitle {
+        font-family: Proxima Nova Th;
+        font-size: 37.5px;
+        text-align: center;
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+    &__top {
+        width: 50%;
+        
+    }
+    &__title {
+        min-width: 506px;
+        max-height: 52px;
+        padding-top: 42px;
+        padding-bottom: 32px;
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    &__subtitle {
+        max-width: 506px;
+        margin: 0 auto;
+        padding-top: 30px;
+        padding-bottom: 22px;
+        border-bottom: dashed 4px  rgb(218, 13, 112);
+        border-top: dashed 4px  rgb(218, 13, 112);
+    }
+    &__descr {
+        font-family: Proxima Nova Rg;
+        font-size: 26.5px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+        color: #ffffff;
+        padding-top: 42px;
+    }
+    &__list {
+        width: 380px;
+        height: 112px;
+        font-family: Proxima Nova Rg;
+        font-size: 25px;
+        font-weight: bold;
+        line-height: 1.76;
+        text-align: left;
+        color: #ffffff;
+        padding-top: 10px;
+        padding-bottom: 46px;
+        margin: 0 auto;
+        ul {
+            list-style-image: url('./../../img/icons/arrow_bottom.png');
+        }
+    }
+    &__warning {
+        margin-top: 140px;
+        display: flex;
+        justify-content: center;
+    }
+    &__parasites-title {
+        padding-top: 65px;
+        &-text {
+            text-transform: uppercase;
+            font-family: Proxima Nova Th;
+            font-size: 38.5px;
+            font-weight: bold;
+            text-align: center;
+            color: #4a233d;
+        }
+    }
+    &__parasites-descr {
+        max-width: 1045px;
+        font-family: Proxima Nova Rg;
+        font-size: 30px;
+        font-weight: normal;
+        text-align: center;
+        color: #4a233d;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+}

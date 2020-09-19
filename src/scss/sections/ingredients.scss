@@ -1,0 +1,72 @@
+.ingredients {
+    position: relative;
+    &__mes {
+        @include flex-center();
+        margin: 0 auto;
+        font-family: Proxima Nova Th;
+        font-size: 34.5px;
+        font-weight: normal;
+        text-align: center;
+        color: #ffffff;
+        width: 754px;
+        height: 110px;
+        border-radius: 50px;
+        box-shadow: 0px 12px 12.5px 0.5px #a61360;
+        border: solid 5px #ffffff;
+        background-color: rgba(218,13,112, 1);
+        text-transform: uppercase;
+        margin-top: 100px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-top: 30px;
+    }
+    &__item {
+        width: 50%;
+        padding-bottom: 10px;
+        &-img {
+            min-width: 401px;
+            min-height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+            
+        }
+        &-title {
+            margin: 0 auto;
+            margin-top: -10px;
+            height: 27px;
+            font-family: Roboto;
+            font-size: 37px;
+            font-weight: 900;
+            text-transform: uppercase;
+            text-align: center;
+            color: #da0d70;
+        }
+        &-descr {
+            margin: 0 auto;
+            font-family: Proxima Nova Rg;
+            max-width: 488px;
+            font-size: 22px;
+            font-weight: bold;
+            text-align: center;
+            color: #4d2751;
+            padding-top: 43px;
+        }
+    }
+    &__text {
+        font-family: Proxima Nova Th;
+        font-size: 24.5px;
+        font-weight: bold;
+        text-align: center;
+        color: #4d2751;
+        padding-top: 30px;
+    }
+
+}
