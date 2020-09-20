@@ -67,6 +67,7 @@
 }
 
 .button {
+    @include flex-center();
     position: absolute;
     width: 361px;
     height: 68px;
